@@ -13,4 +13,4 @@ This project demonstrates how to integrate Grove PWM Driver with MangOH
   
   3. Install apps: 
         1. `pwmConfigureToDatahub`: set angle, limitation, period to datahub
-        1. `pwmControlServo`:  Get notification when data is changed in datahub and control servo motor 
+        1. `pwmControlServo`:  get notification from datahub when data is changed and control servo motor 
