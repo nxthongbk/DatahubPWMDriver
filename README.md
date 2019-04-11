@@ -8,7 +8,8 @@ This project demonstrates how to integrate Grove PWM Driver with MangOH
 
 ## Setup
   1. Connect mangoh, Grove Pi and PWM Driver as bellow
-  2. Install app PWMDriverService:https://github.com/nxthongbk/pwmDriverService:
+  2. Install app 'pwmDriverService':
+        1. https://github.com/nxthongbk/pwmDriverService:
         1. This app will provide api to control pwm driver
   
   3. Install apps: 
