@@ -1,0 +1,18 @@
+executables:
+{
+	pwmConfigureToDatahub = ( pwmConfigureToDatahubComponent )
+}
+
+processes:
+{
+	run:
+	{
+		( pwmConfigureToDatahub )
+	}
+}
+
+bindings:
+{
+	pwmConfigureToDatahub.pwmConfigureToDatahubComponent.io -> dataHub.io
+}
+

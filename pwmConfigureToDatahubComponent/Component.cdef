@@ -1,0 +1,12 @@
+requires:
+{
+	api:
+	{
+		$LEGATO_ROOT/apps/sample/dataHub/io.api
+	}
+}
+
+sources:
+{
+	pwmConfigureToDatahub.c
+}

@@ -1,0 +1,19 @@
+executables:
+{
+	pwmControlServo = ( pwmControlServoComponent )
+}
+
+processes:
+{
+	run:
+	{
+		( pwmControlServo )
+	}
+}
+
+bindings:
+{
+	pwmControlServo.pwmControlServoComponent.io -> dataHub.io
+	pwmControlServo.pwmControlServoComponent.admin -> dataHub.admin
+	pwmControlServo.pwmControlServoComponent.ma_pwm -> pwmDriver.ma_pwm
+}
