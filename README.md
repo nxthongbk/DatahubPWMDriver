@@ -11,7 +11,7 @@ This project demonstrates how to integrate Grove PWM Driver with MangOH
   <img src="https://user-images.githubusercontent.com/17214533/55946172-601e3700-5c76-11e9-9e9c-f2b4e5c05ffe.jpg" width="350" alt="accessibility text"> 
   
   2. Install app `pwmDriverService`:  https://github.com/nxthongbk/pwmDriverService:
-        1. This app will provide api to control pwm driver
+        1. This app will provide apis to control pwm driver
   
   3. Install apps: 
         1. `pwmConfigureToDatahub`: set angle, limitation, period to datahub
